@@ -1,5 +1,6 @@
 require "silent_listener/version"
 
 module SilentListener
-  # Your code goes here...
+  class Engine < ::Rails::Engine
+  end
 end

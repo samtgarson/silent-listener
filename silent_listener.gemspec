@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Listen out for selectors and instantiate your classes.}
   spec.description   = %q{SilentListener allows you to define _SilentListeners_ which will be instantiated whenever an element appears which matches a given selector. It also comes with some handy functionality for reinstantiating classes using events, and handling class options.}
-  spec.homepage      = "http://github.com/samtgarson/silent_listener"
+  spec.homepage      = "http://github.com/samtgarson/silent-listener"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
